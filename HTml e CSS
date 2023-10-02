@@ -1,0 +1,174 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="________" content="_______=device-width, ________=_______">
+        <title>AluraBooks</title>
+    </head>root{
+        --cor-botao-e-titulo : #191970;
+    }:root {
+        --cor-de-fundo: #EBECEE;
+    }    <_________ class="cabecalho">
+        <a _________="index.html">
+            <_________ src="logo.svg" alt="Logo da AluraBooks">
+        </a>        
+ <_________>   <header class="cabecalho">
+    <img src="img/Logo.svg" alt="Logo da Alurabooks">
+    <div class="container">
+        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
+        <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras"></a>
+        <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"</a>
+    </div>
+</header>        <div class="container">
+    <input type="checkbox" id="menu" class="container__botao">
+    <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+    </label>
+    <ul class="lista-menu">
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Clássicos</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Esportivos</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Monster Truck</a>
+        </li>
+        <li class="lista-menu__item">
+    </ul>
+</div>.lista-menu {
+    display: none;
+    position: absolute;
+    _______: _______;
+    _______: _______;
+}<input type="checkbox" id="like" class="container__botao">
+<label>
+  <img src="https://imgur.com/6nT3eyN.png" alt="Coração">
+</label><_________>
+    <link rel="preconnect" 
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+        href="https://fonts.gstatic.com" crossorigin>
+    <_____  rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=__________:wght@300;400;500;700&display=swap">
+  <_________><_________>
+    <:root {
+        --fonte-principal: "__________";
+    }
+    body {
+        font-family: var(______________);
+        font-weight: ______;
+    }
+    .lista-menu__titulo{
+        _____________: 700;
+    }.banner__pesquisa {
+        background-color: _________________;
+        border: 1px solid var(--branco);
+        color: var(--branco);
+        _______________: 24px;
+        padding: 1em;
+        width: 100%;
+    }
+    
+    .banner__pesquisa::___________________ {
+        font-family: var(--fonte-principal);
+        font-size: 14px;
+        font-weight: 400;
+        ______________: center;
+        color: var(--branco);
+        _______________: url("../img/Lupa.svg") no-repeat;
+        background-position: 1em;
+    }            <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>       <!-- 2º linha -->
+    <______ class="card__botões">
+        <!-- 1º coluna -->
+        <______ class="botões">
+            <li class="botões__item"><img src="img/Favoritos.svg></li>
+            <li class="botões__item"><img src="img/Compras.svg></li>
+        <______ >
+        <!-- 2º coluna -->
+        <a ______="#" class="botões__ancora">Saiba mais</a>
+    <______>        <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descrição">
+            <!-- 1º coluna -->
+            <div class="descrição">
+                <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                <p class="descrição__texto">Construindo uma aplicação integrada.</p>
+            </div>
+            <!-- 2º coluna -->
+            <img src="img/Angular.svg" class="descrição__imagem">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="card__botões">
+            <!-- 1º coluna -->
+            <ul class="botões">
+                <li class="botões__item"><img src="img/Favoritos.svg”></li>
+                <li class="botões__item"><img src="img/Compras.svg"></li>
+            </ul>
+            <!-- 2º coluna -->
+            <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+    </div>    <___________ class="tópicos">
+        <_______ class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</______>
+        <_______ class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Beach Bomb rosa</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Camaro Copper Custom</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Custom Beetle</a>
+            </li>            
+        </_______>
+    </___________ >    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Sempre uma raridade pode aparecer.</p>
+        <input ________="email" ________="Cadastre seu e-mail" ________="contato__email">
+    </section>.contato__email::____________ {
+        font-family: var(--fonte-principal);
+        color: var(--azul);
+        _______________: url("../img/cartinha.svg") no-________;
+        padding-left: 2em;
+    }@media (min-width ou max-width = tamanho da tela) { @media screen and (min-width ou max-width = tamanho da tela) { }<h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1><_________ class="rodapé">
+        <________  class="rodapé__titulo">Carros e MonsterTruck</________>
+        <_______ class="lista-rodapé">
+           <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Seja um colecionador assinante</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link"> Compre sua coleção</a>
+            </li>
+        </_______>
+        <________   ___________=”redesocial.com”>Siga-nos na nossa rede social.</_______>
+<___________ >.container__botao {
+    display: none;
+}
+
+.container__titulo {
+    display: none;
+}
+
+.opções {
+    display: none;
+}
+
+.container__texto {
+    display: none;
+}@media screen and (_____-width: ________) {
+    .___________________ {
+        display: _________;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }@media screen and (min-width: 1728px) {
+        _____________________ {
+            ________: 35%;
+        }
+    
+        _________________ {
+            _________: 6em 0;
+        }
