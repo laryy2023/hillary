@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>_</head>
+    <body> = S0
+        <main>_</main>
+    </body>
+</html><input type="submit" value="Iniciar produção" class="producao" id="producao">document.getElementById('producao')
+    <input type="submit" value="Iniciar produção" class="producao" id="producao">document.getElementById('producao').value="Teste JavaScript"
+'Teste JavaScript'document.getElementByClassName('estatistica')
+    HTMLCollection(4) [div.estatistica, div.estatistica, div.estatistica, div.estatistica]document.querySelector()document.querySelector('#producao')
+    <input type="submit" value="Teste JavaScript" class="producao" id="producao">> document
+    #document
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>_</head>
+            <body>_<body>
+        </html>
+document
+    HTMLDocument file:///User/pedromarins/code/alura/robotron-200/index.html
+document.URL
+'file://Users/pedromarins/code/alura/robotron-200/index.html
+document.title
+'Robotron 2000'
+document.body
+    <body>
+        <main>_</main>
+    </body>
+document.head
+    <head>
+document.producao
+undefined
+document.getElementById('producao')
+<input type="submit" value="Teste JavaScript" class"producao" id="producao">
+querySelector('#producao')
+<input type="submit" value="Teste JavaScript" class"producao" id="producao">
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulando o DOM - Aula 1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- fonte  --> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<!-- fonte  -->
+
+<section class="container">
+<div class="trono"></div>
+<p id="texto">O inverno está chegando</p>
+</section>
+
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--cor-fundo);
+  color: var(--cor-fonte);
+  font-family: 'Cinzel', serif;
+  font-size: 38px;
+  user-select: none;
+  transition: 2s;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trono {
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-preto.png");
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 10%;
+  right: 5%;
+}alert('Oi')
+<img class="robo" src="img/robotron.png alt="Robotron" onclick="alert('oi')">
+<script src="js/main.js"></script>
+.addEventListener("click")
+<img class="robo" src="img/robotron.png alt="Robotron" id="robotron">
+document.querySelector("#robotron").addEventListener("click")
+document.querySelector("#robotron").addEventListener("click", console.log('oi'))
+function dizOi() {
+
+} 
+function dizOi() {
+    console.log('oi')
+} 
+document.querySelector("#robotron").addEventListener("click", dizOi)
+
+function dizOi() {
+    console.log('oi')
+} 
+const robotron = document.querySelector("#robotron")
+const robotron = document.querySelector("#robotron")
+
+robotron.addEventListener("click", dizOi)
+
+function dizOi() {
+    console.log('oi')
+}
+const robotron = document.querySelector("#robotron")
+
+robotron.addEventListener("click", dizOi)
+robotron.addEventListener("click", function() {
+    console.log('Cliquei nno robô.')
+})
+
+function dizOi() {
+    console.log('Oi')
+    console.log("Bem-vindo ao Robotron 2000")
+}
+dizOi()
+robotron.addEventListener("click", function() {
+
+})
