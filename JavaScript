@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>_</head>
+    <body> = S0
+        <main>_</main>
+    </body>
+</html>document.getElementById('producao')
+    <input type="submit" value="Iniciar produção" class="producao" id="producao">document.getElementById('producao').value="Teste JavaScript"
+'Teste JavaScript'document.getElementByClassName('estatistica')
+    HTMLCollection(4) [div.estatistica, div.estatistica, div.estatistica, div.estatistica]document.querySelector()document.querySelector('#producao')
+    <input type="submit" value="Teste JavaScript" class="producao" id="producao">> document
+    #document
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>_</head>
+            <body>_<body>
+        </html>
+document
+    HTMLDocument file:///User/pedromarins/code/alura/robotron-200/index.html
+document.URL
+'file://Users/pedromarins/code/alura/robotron-200/index.html
+document.title
+'Robotron 2000'
+document.body
+    <body>
+        <main>_</main>
+    </body>
+document.head
+    <head>
+document.producao
+undefined
+document.getElementById('producao')
+<input type="submit" value="Teste JavaScript" class"producao" id="producao">
+querySelector('#producao')
+<input type="submit" value="Teste JavaScript" class"producao" id="producao">
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulando o DOM - Aula 1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- fonte  --> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<!-- fonte  -->
+
+<section class="container">
+<div class="trono"></div>
+<p id="texto">O inverno está chegando</p>
+</section>
+
+</body>
+</html>* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--cor-fundo);
+  color: var(--cor-fonte);
+  font-family: 'Cinzel', serif;
+  font-size: 38px;
+  user-select: none;
+  transition: 2s;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trono {
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-preto.png");
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 10%;
+  right: 5%;
+}alert('Oi')
+<img class="robo" src="img/robotron.png alt="Robotron" onclick="alert('oi')">
+<script src="js/main.js"></script>
+.addEventListener("click")
+<img class="robo" src="img/robotron.png alt="Robotron" id="robotron">
+document.querySelector("#robotron").addEventListener("click")
+document.querySelector("#robotron").addEventListener("click", console.log('oi'))
+function dizOi() {
+
+} 
+function dizOi() {
+    console.log('oi')
+} 
+document.querySelector("#robotron").addEventListener("click", dizOi)
+
+function dizOi() {
+    console.log('oi')
+} 
+const robotron = document.querySelector("#robotron")
+const robotron = document.querySelector("#robotron")
+
+robotron.addEventListener("click", dizOi)
+
+function dizOi() {
+    console.log('oi')
+}
+const robotron = document.querySelector("#robotron")
+
+robotron.addEventListener("click", dizOi)
+
+function dizOi() {
+    console.log('Oi')
+    console.log("Bem-vindo ao Robotron 2000")
+}
+dizOi()
+robotron.addEventListener("click", function() {
+
+})
+<input type="submit" value="Iniciar produção" class="producao" id="producao">robotron.addEventListener("click", function() {
+    console.log('Cliquei nno robô.')
+})
+robotron.addEventListener("click", () => {
+    console.log('Cliquei nno robô.')
+})
+dizOi()
+Oi
+Bem-vindo ao Robotron 2000
+function dizOi(nome) {
+    console.log('Oi')
+    console.log("Bem-vindo ao Robotron 2000")
+}
+function dizOi(nome) {
+    console.log(nome)
+    console.log("Bem-vindo ao Robotron 2000")
+}
+dizOi("Pedro")
+Pedro
+Bem-vindo ao Robotron 2000
+Oi Pedro
+Bem-vindo ao Robotron 2000
+dizOi("Renata")
+Oi Renata
+Bem-vindo ao Robotron 2000
+
+dizOi('Paulo')
+Oi Paulo
+Bem-vindo ao Robotron 2000
+robotron.addEventListener("click", (evento) => {
+    console.log(evento)
+})
+PointerEvent {isTruste: true, pointerId: 1, width: 1, height: 1, pressure: 0, _}
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulando o DOM - Aula 2</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="page-title">
+      Manipulando elementos no DOM</h1>
+
+      <button id="calcular">Enviar notas</button>
+
+      <h2 class="resultado"></h2>
+
+  </div>
+
+  <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+
+  <script src="./script.js"></script>
+</body>
+</html>* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 80vh;
+  color: rgb(29, 0, 82);
+  background-image: url("https://i.ytimg.com/vi/XIXYk6xIhZs/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+button {
+  margin-left: 10px;
+  font-size: 24px;
+  font-family: "Futura Lt BT", sans-serif;
+  background-color: black;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 8px 20px 8px 20px;
+  color: white;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  transition: 500ms;
+  opacity: 0.8;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+button:hover {
+  color: white;
+  background-color: gray;
+}
+
+button:active {
+  color: black;
+  background-color: white;
+}
+
+.resultado {
+  margin-bottom: 30px;
+}<div class="controle">
+    <buttom class="controle-ajuste">_</buttom>
+    input type="text" class="controle-contador" value="00">
+    buttom class="controle-ajusta"></buttom>
+</div><buttom class="controle-ajuste" id="subtrair">_</buttom>
+input type="text" class="controle-contador" value="00" id="braco">
+buttom class="controle-ajusta" id="somar"></buttom>const subtrair = document.querySelector("#subtrair")
+const somar = document.querySelector("#somar")
+const braco = document.querySelector("#braco")somar.addEventListener("click", (evento) => {
+
+})somar.addEventListener("click", (evento) => {
+    braco.value += 1;
+})"00" + 1 
+'001'"001" + 1
+'0011'somar.addEventListener("click", (evento) => {
+    parseInt(braco.value);
+})somar.addEventListener("click", (evento) => {
+    console.log(parseInt(braco.value));
+})somar.addEventListener("click", (evento) => {
+    braco.value = parseInt(braco.value) + 1;
+})subtrair.addEventListener("click", (evento) => {
+    braco.value = parseInt(braco.value) - 1;
+})const subtrair = document.querySelector("#subtrair")
+const somar = document.querySelector("#somar")
+const braco = document.querySelector("#braco")
+
+somar.addEventListener("click", (evento) => {
+    braco.value = parseInt(braco.value) + 1;
+})
+
+subtrair.addEventListener("click", (evento) => {
+    braco.value = parseInt(braco.value) - 1;
+})function manipulaDados(operacao)function manipulaDados(operacao) {
+    if(operacao === "subtrair") {
+        braco.value = parseInt(braco.value) - 1
+    } else {
+        braco.value = parseInt(braco.value) + 1
+    }
+}somar.addEventListener("click", () => (manipulaDados("somar"))
+
+subtrair.addEventListener("click", () => (manipulaDados("subtrair"))const controle = document.querySelector(".controle-ajuste")<buttom class="controle-ajuste id="subtrair">-</buttom>const controle = document.querySelectorAll(".controle-ajuste")NodeList(10) {
+buttom#subtrair.controle-ajuste,
+buttom#soma.controle-ajuste,
+buttom.controle-ajuste
+buttom.controle-ajuste
+buttom.controle-ajuste
+buttom.controle-ajuste
+buttom.controle-ajuste
+buttom.controle-ajuste
+buttom.controle-ajuste
+buttom.controle-ajustecontrole.forEach( (elemento) => { 
+    console.log(elemento)
+)}controle.forEach( (elemento) => { 
+    elemento.addEventListener('click', () => {
+        console.log("funcionou")
+    )} 
+)}controle.forEach( (elemento) => { 
+    elemento.addEventListener('click', () => {
+        console.log("evento")
+    )} 
+)}controle.forEach( (elemento) => { 
+    elemento.addEventListener('click', () => {
+        console.log(evento.target)
+    )} 
+)}<div class="controle">
+    <buttom class="controle-ajuste" id="subtrair">-</buttom>
+    <input type="text" class="controle-contador" value="" id="braco">
+    <buttom class="controle-ajuste" id="somar">+</buttom>
+</div>controle.forEach( (elemento) => { 
+    elemento.addEventListener('click', () => {
+        console.log("evento.target.textContent")
+    )} 
+)}somar.addEventListener("click", () => (manipulaDados("somar")))
+
+subtrair.addEventListener("click", () => (manipulaDados("subtrair")))
+
+
+function manipulaDados(operacao) {
+    if(operacao === "subtrair") {
+        braco.value = parseInt(braco.value) - 1
+    } else {
+        braco.value = parseInt(braco.value) + 1
+    }
+}const controle = document.querySelectorAll(".controle-ajuste")<ul class="lista">
+  <div class="item">Laranja</div>
+  <div class="item">Vermelho</div>
+  <div class="item">Branco</div>
+  <div class="item">Laranja</div>
+  <div class="item">Preto</div>
+</ul>var lista = ["Laranja", "Vermelho", "Branco", "Amarelo", "Rosa"]; <div class="controle">
+    <buttom class="controle-ajuste">-</buttom>
+    <input type="text" class="controle-contador" value="00" id="braco">
+    <buttom class="controle-ajuste">+</buttom>
+const braco = document.querySelector("#braco")
+
+const controle = document.querySelectorAll(".controle-ajuste")
+
+controle.forEach( (elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        manipulaDados(evento.target.textContent)
+    })
+})
+
+function manipulaDados(operacao) {
+    if(operacao === "-") {
+        braco.value = parseInt(braco.value) - 1
+    } else { 
+        braco.value = parseInt(braco.value) + 1
+    }
+}
+controle.forEach( (elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        manipulaDados(evento.target.textContent)
+        console.log(evento.target.parentNode)
+    })
+})
+function manipulaDados(operacao) {
+    const peca = document.querySelector("#braco")
+    if(operacao === "-") {
+        peca.value = parseInt(braco.value) - 1
+    } else { 
+        peca.value = parseInt(braco.value) + 1
+    }
+}
+function manipulaDados(operacao) {
+    const peca = document.querySelector(".controle-contador")
+    if(operacao === "-") {
+        peca.value = parseInt(braco.value) - 1
+    } else { 
+        peca.value = parseInt(braco.value) + 1
+    }
+}
+controle.forEach( (elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        manipulaDados(evento.target.textContent, evento.target.parentNode)
+    })
+})
+function manipulaDados(operacao, controle) {
+    const peca = document.querySelector(".controle-contador")
+    if(operacao === "-") {
+        peca.value = parseInt(braco.value) - 1
+    } else { 
+        peca.value = parseInt(braco.value) + 1
+    }
+}
+function manipulaDados(operacao, controle) {
+    const peca = controle.querySelector(".controle-contador")
+    if(operacao === "-") {
+        peca.value = parseInt(braco.value) - 1
+    } else { 
+        peca.value = parseInt(braco.value) + 1
+    }
+}
+<button class="controle-ajuste" data-controle="-">-<</button>const controle = document.querySelector("[controle-ajuste]")controle.forEach( (elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        manipulaDados(evento.target.dataset.controle, evento.target.parentNode)
+    })
+})<div class="controle">
+    <button class="controle-ajuste" data-controle="-">-</button>
+    <input type="text" class="controle-contador" value="00" data-contador>
+    <button class="controle-ajuste" data-controle="+">+</button>
+</div>function manipulaDados(operacao, controle) {
+    const peca = controle.querySelector("[data-contador]")
+
+    if(operacao === "-") {
+        peca.value = parseInt(peca.value) - 1
+    } else {
+        peca.value = parseInt(peca.value) + 1
+    }
+}  <h1>Lista de tintas:</h1>
+  <ul id="lista">
+    <li data-cor="laranja" data-tipo="tinta-exterior" onclick="mudaCores(this)" class="item">Tinta laranja</li>
+    <li data-cor="vermelho" data-tipo="tinta-interior"  onclick="mudaCores(this)" class="item">Tinta vermelha</li>
+    <li data-cor="branco" data-tipo="tinta-interior"  onclick="mudaCores(this)" class="item">Tinta branca</li>
+    <li data-cor="amarelo" data-tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta amarelo</li>
+    <li data-cor="rosa" data-tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta rosa</li>
+  </ul>function mudaCores(elementos){
+    var cores = elementos.getAttribute("[data-cor]");
+    var tipoElemento = elementos.getAttribute("[data-tipo]");
+  }  <h1>Lista de tintas:</h1>
+  <ul id="lista">
+    <li cor="laranja" tipo="tinta-exterior" onclick="mudaCores(this)" class="item">Tinta laranja</li>
+    <li cor="vermelho" tipo="tinta-interior"  onclick="mudaCores(this)" class="item">Tinta vermelha</li>
+    <li cor="branco" tipo="tinta-interior"  onclick="mudaCores(this)" class="item">Tinta branca</li>
+    <li cor="amarelo" tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta amarelo</li>
+    <li cor="rosa" tipo="tinta-exterior"  onclick="mudaCores(this)" class="item">Tinta rosa</li>
+  </ul>function mudaCores(elementos){
+    var cores = elementos.getAttribute("[cor]");
+    var tipoElemento = elementos.getAttribute("[tipo]");
+  }<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulando o DOM - Aula 3</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <button onclick="mostraTintas(this)">Aluratintas em estoque:</button>
+
+  <ul class="lista">
+    <li cor="laranja" tipo="tinta-exterior" class="item">Tinta laranja</li>
+    <li cor="vermelho" tipo="tinta-interior" class="item">Tinta vermelha</li>
+    <li cor="branco" tipo="tinta-interior" class="item">Tinta branca</li>
+    <li cor="amarelo" tipo="tinta-exterior" class="item">Tinta amarela</li>
+    <li cor="rosa" tipo="tinta-exterior" class="item">Tinta rosa</li>
+    <li cor="preto" tipo="tinta-exterior" class="item">Tinta preta</li>
+  </ul>
+
+  <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+
+</body>
+</html>* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  min-width: 450px;
+  background-size: 80vh;
+  color: rgb(0, 0, 0);
+  background-image: url("https://www.uniabeu.edu.br/wp-content/uploads/2020/03/fundo-lilas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  font-size: 24px;
+  font-family: "Futura Lt BT", sans-serif;
+  background-color: black;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 8px 20px 8px 20px;
+  color: white;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  transition: 500ms;
+  opacity: 0.8;
+  margin: 30px 0;
+}
+
+button:hover {
+  color: white;
+  background-color: gray;
+}
+
+button:active {
+  color: black;
+  background-color: white;
+}
+
+.lista {
+  padding: 20px;
+  list-style-type: none;
+  border: 4mm ridge rgba(234, 122, 11, 0.992);
+}
+
+.alura-logo {
+  width: 150px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+[cor="laranja"] {
+  color: orange;
+}
+
+[cor="vermelho"] {
+  color: red;
+}
+
+[cor="branco"] {
+  color: white;
+}
+
+[cor="amarelo"] {
+  color: yellow;
+}
+
+[cor="rosa"] {
+  color: pink;
+}
+
+[cor="preto"] {
+  color: black;
+}const pecas = {
+    "bracos": {
+        "forca": 29,
+        "poder": 35,
+        "energia": -21,
+        "velocidade": -5
+    },
+
+    "blindagem": {
+        "forca": 41,
+        "poder": 20,
+        "energia": 0,
+        "velocidade": -20
+    },
+    "nucleos":{
+        "forca": 0,
+        "poder": 7,
+        "energia": 48,
+        "velocidade": -24
+    },
+    "pernas":{
+        "forca": 27,
+        "poder": 21,
+        "energia": -32,
+        "velocidade": 42
+    },
+    "foguetes":{
+        "forca": 0,
+        "poder": 28,
+        "energia": 0,
+        "velocidade": -2
+    }
+}pecas
+
+(bracos: {-}, blindagens: {-}, nucleos:{-}, pernas: {-}, foguetes{-})pecas.bracos
+    {forca: 29, poder: 35, energia: -21, velocidade: -5}
+        "energia": -21,
+        "forca": 29,
+        "poder": 35,
+        "velocidade": -5
+            [[Prototype]]: Objetcpecas.braco.energia
+-21pecas["bracos"]
+    {forca: 29, poder: 35, energia: -21, velocidade: -5}<section class="box estatistica">
+    <div class="estatistica">
+        <p class="estatistica-titulo">Força</p>
+        <div class="estatistica-valor"
+            <p class="estatistica-numero" data-estatistica="forca">768</p>
+        </div>
+    </div>
+    <div class="estatistica"
+        <p class="estatistica-titulo">Poder</p>
+        <div class="estatistica-valor"
+            <p class="estatistica-numero" data-estatistica="poder">630</p>
+        </div>
+    </div>
+    <div class="estatistica"
+        <p class="estatistica-titulo">Energia</p>
+        <div class="estatistica-valor"
+            <p class="estatistica-numero" data-estatistica="energia">286</p>
+        </div>
+    </div>
+    <div class="estatistica"
+        <p class="estatistica-titulo">Velocidade</p>
+        <div class="estatistica-valor"
+            <p class="estatistica-numero" data-estatistica="velocidade">597</p>
+        </div>
+    </div>
+<section>cont estatisticas = document.querySelectorAll("[data-estatisticas]").
+console.log(estatisticas)cont estatistica = document.querySelectorAll("[data-estatistica]").
+console.log(estatistica)controle.forEach( (elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        manipulaDados(evento.target.datasete.controle, evento.target.parentNode)
+        atualizaEstatistica()
+    })
+})function atualizaEstatistica() {
+
+}controle.forEach( (elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        manipulaDados(evento.target.dataset.controle, evento.target.parentNode)
+        atualizaEstatistica(evento.target.dataset.controle)
+    })
+})function atualizaEstatistica() {
+    console.log(peca)
+
+}
+function atualizaEstatistica() {
+    console.log(peca[peca])
+
+}function atualizaEstatistica() {
+    console.log(peca[peca])
+
+    estatistica.forEach(elemento)
+
+}function atualizaEstatistica() {
+    console.log(peca[peca])
+
+    estatistica.forEach( (elemento) =>
+    console.logo(elemento.textContent)
+    })
+}console.log(dataset.estatistica)funtion atualizaEstatistica(peca) {
+    estatistica.forEach( (elemento ) => {
+        elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
+    })
+}var livro = {}var livro = { 
+titulo: "Cangaceiro JavaScript",  
+autor: "Flávio Almeida", 
+genero: "Front-end", 
+editora: "Casa do código", 
+preco:31.92
+}var livros = [
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:31.92
+},
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:21.89},
+
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco:31.92},
+]livro.preco31,92var livros = [
+
+    {titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco: 31.92},
+
+    {titulo: "Introdução e boas práticas em UX Design",  
+    autor: "Fabricio Teixeira", 
+    genero: "UX & UI", 
+    editora: "Casa do código", 
+    preco: 31.92},
+
+    {titulo: "Scrum",  
+    autor: "Rafael Sabbagh", 
+    genero: "Métodos Ágeis", 
+    editora: "Casa do código", 
+    preco: 31.92},
+]
+
+console.log(livros[0]["autor"])
+console.log(livros[0].autor)livros[1].genero = "UX e Design"
+livros[0].estoque = "11 unidades"autor: "Flávio Almeida"
+editora: "Casa do código"
+estoque: "11 unidades"
+genero: "Front-end"
+titulo: "Cangaceiro JavaScript"
+preco: 31.92delete livros[1].autordelete livros[1]console.log(this === window); // trueconsole.log(this)var livros = {
+    titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco: 31.92,
+    chamaLivro: function() {
+        return this.autor;
+    }
+}
+console.log('O autor do livro se chama ' + livros.chamaLivro())O autor do livro se chama Flávio Almeidavar livros = {
+    titulo: "Cangaceiro JavaScript",  
+    autor: "Flávio Almeida", 
+    genero: "Front-end", 
+    editora: "Casa do código", 
+    preco: 31.92,
+    alteraAutor: function() {
+        return this.autor = "Pedro Marins";
+    },
+}
+
+console.log('É possível alterar o nome do autor para ' + livros.alteraAutor())
